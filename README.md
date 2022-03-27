@@ -1,6 +1,6 @@
 # express-form
 
-# RUN
-<npm install> in terminal
+# RUN npm install
+
 
 to get the modules
