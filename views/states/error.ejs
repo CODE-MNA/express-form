@@ -1,0 +1,7 @@
+ <div class="console red">
+ <ul> <%
+    for(e of error.errors){
+        %>  <li><%= e.msg %></li> <%
+    }
+    %><ul>
+</div>

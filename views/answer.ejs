@@ -1,0 +1,17 @@
+<%- include ('layouts/head') %> 
+<body>
+    <%- include("layouts/form") %> 
+
+    <% if (error.errors.length > 0){
+    %>
+       <%- include("states/error")%>
+    <%
+    }else{
+        %>
+       <%-include("states/success")%>
+       <%
+    }    
+    %> 
+    
+</body>
+</html>

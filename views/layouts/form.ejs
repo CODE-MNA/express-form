@@ -1,0 +1,31 @@
+<h1 class="center title">Express Validation</h1>
+
+<form id="mainform" method="post" action="">
+    <div class="form-group">
+    <div><label for="name"></label>Name :  <input type="text" name="name"  ></div>
+    <div><label for="email"></label>Email :  <input type="text" name="email" ></div>
+    <div><label for="phone"></label>Phone :  <input type="phone" name="phone" ></div>
+    <div><label for="province"></label>Province :  <input list="provinces" name="province" placeholder="Province name" >
+                            <datalist id="provinces">
+                                <option value="Alberta">
+                                <option value="British Columbia">
+                                <option value="Manitoba">
+                                <option value="Nunavut">
+                                <option value="Northwest Territories">
+                                <option value="Nova Scotia">
+                                <option value="Newfoundland and Labrador">
+                                <option value="New Brunswick">
+                                <option value="Ontario">
+                                <option value="Prince Edward Island">
+                                <option value="Quebec">
+                                <option value="Saskatchewan">
+                                <option value="Yukon">
+                            </datalist></div>
+    <div><label for="streetAddress">Street Address :  </label><input type="text" name="streetAddress"></div>
+ 
+    <div><input id="btnSubmit" type="submit" value="Submit Form"></div>
+
+    </div>
+</form>
+
+    
